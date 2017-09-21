@@ -28,7 +28,7 @@
 
 #### Create a New Twig Template with a Filter and Function
 
-- Create a new new file in the `templates/` directory named `cookies.html.twig`.
+- Create a new file in the `templates/` directory named `cookies.html.twig`.
 - Edit the file named `cookies.html.twig`.
 - Using Twig syntax, assign a variable named `hour` the current hour in military time.
 - Display the text `Time: ?` where `?` is the current date and time (hint: *"Y-m-d H:i:s"*) in military time.
