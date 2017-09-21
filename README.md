@@ -1,4 +1,4 @@
-# Assignment 02 - Points **55**
+# Assignment 02 - Points **60**
 
 ## Instructions
 

@@ -24,6 +24,7 @@ class controllersTest extends WebTestCase
         $crawler = $client->request('GET', '/nothere');
 
         $this->assertEquals(404, $client->getResponse()->getStatusCode());
+        $this->assertContains('NotFoundHttpException', $crawler->filter('body')->text());
         $this->assertContains("Sorry, the page you are looking for could not be found.", $crawler->filter('body')->text());
     }
 
